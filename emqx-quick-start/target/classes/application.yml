@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: emqx-quick
+
+server:
+  port: 8002
+  servlet:
+    context-path: /emqx-quick
+
+mqtt:
+  enable: true
+  hostUrl: tcp://192.168.126.100:1883
+  username: admin
+  password: Aa123456
+  client-id: MQTT-CLIENT-DEV
+  cleanSession: true
+  reconnect: true
+  timeout: 100
+  keepAlive: 100
+  qos: 0
+
+
+## 日志配置
+logging:
+  service:
+    # 日志级别：ERROR、WARN、INFO、DEBUG
+    level: INFO
+
+
+
