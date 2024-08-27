@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: mqtt-emqx-example-service
+  profiles:
+    active: dev
+server:
+  port: 8080
+  servlet:
+    context-path: /mqtt-emqx-example-service
+
+emqx:
+  sdk:
+    enable: true
+    host: 192.168.126.100
+    tcpPort: 1883
+    httpPort: 18083
+    username: admin
+    password: Aa123456
+    appId: 0c94e0423b409483
+    appSecret: e379f64e96d383ced430804512c3e7f1
+    ssl: false
+    sysSubscribeTopics:
+      - sys/+/+/thing/event/property/post
+      - $SYS/brokers/+/clients/#
