@@ -13,6 +13,7 @@
     <module>mqtt-emqx-client-starter</module>
     <module>mqtt-emqx-example-service</module>
       <module>mqtt-broker-server</module>
+      <module>base-rabbitmq-smart-home</module>
   </modules>
 
   <name>mqqt-emqx</name>
