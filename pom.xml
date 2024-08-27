@@ -12,6 +12,7 @@
     <module>mqtt-emqx-client</module>
     <module>mqtt-emqx-client-starter</module>
     <module>mqtt-emqx-example-service</module>
+      <module>mqtt-broker-server</module>
   </modules>
 
   <name>mqqt-emqx</name>
